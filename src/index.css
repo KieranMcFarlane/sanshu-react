@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'chainwhacks', sans-serif;
+    font-weight: normal;
+    src: url('../public/fonts/chainwhacks.woff') format('woff'), url('../public/fonts/chainwhacks.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'aldrich-regular', sans-serif;
+    font-weight: normal;
+    src: url('../public/fonts/aldrich-regular.woff') format('woff'), url('../public/fonts/aldrich-regular.woff2') format('woff2');
+  }
+}
