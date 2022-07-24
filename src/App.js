@@ -7,10 +7,11 @@ import React from 'react'
 function App() {
   return (
     <>
+      <div className='red'>
       <h1 className="text-6xl font-chain">Sanshu is a <span className="text-purple-700">community</span></h1>
-      <p className="font-aldrich">I wanted the overall style to evoke travels, the adventures, and the personal connections that the Esperanto project represented. To do so, I knew I wanted a primary font with a humanist feel to it and a hand-drawn logo. 
-
-Style to evoke travels, the adventures, and the personal connections that the Esperanto project represented. I wanted a primary font with a humanist feel to it and a hand-drawn logo.</p>
+      <p className="font-aldrich">I wanted the overall style to evoke travels, the adventures, and the personal connections that the Esperanto project represented. To do so, I knew I wanted a primary font with a humanist feel to it and a hand-drawn logo.</p>
+      <p className="font-aldrich">Style to evoke travels, the adventures, and the personal connections that the Esperanto project represented. I wanted a primary font with a humanist feel to it and a hand-drawn logo.</p>
+      </div>
     </>
   );
 }
