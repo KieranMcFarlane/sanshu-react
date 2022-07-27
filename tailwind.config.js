@@ -5,6 +5,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      tablet: '960px',
+      desktop: '1248px',
+    },
+    color: {
+      purple: '#000000',
+      lightPurple: '#AA79FA',
+    },
     extend: {
       fontFamily: {
         'chain': ["'chainwhacks'", ...defaultTheme.fontFamily.sans],

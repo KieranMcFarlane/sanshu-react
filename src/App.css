@@ -2,10 +2,65 @@
   text-align: center;
 }
 
+body {
+  box-sizing: border-box;
+}
+
+.sanshu-mech {
+  background-color: #f6f9fa;
+  position: relative;
+}
+
+.showcase-img {
+  max-width: 782px;
+}
+
+.showcase-content {
+  max-width: 777px;
+  margin-left: 5rem;
+  padding: 2rem;
+  color: white;
+}
+
+.showcase-content h3 {
+  font-size: 39px;
+  line-height: 1;
+  margin-bottom: 8px;
+  margin-top: 6px;
+  letter-spacing: 1.56px;
+}
+
+.showcase-wrapper {
+  margin: 2rem auto;
+  margin-bottom: 30rem;
+}
+
+.cityscape {
+  position: relative;
+}
+
+.anime {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;  
+}
+
+.sanshu-mech img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 960px;
+  z-index: -1;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +90,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.arrow-bottom {
+  position: relative;
+  height: 500px;
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+
+
+.arrow-bottom:before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  border-bottom: 80px solid #f6f9fa;
+  border-right: 50vw solid transparent;
+}
+
+.arrow-bottom:after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  right: 0;
+  border-bottom: 80px solid #f6f9fa;
+  border-left: 50vw solid transparent;
 }
